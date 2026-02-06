@@ -152,6 +152,26 @@
 - [ ] 148.
 - [ ] 149.
 - [ ] 150.
+- [x] 151. Pattern 1
+- [x] 152. Pattern 2
+- [x] 153. Pattern 3
+- [x] 154. Pattern 4
+- [x] 155. Pattern 5
+- [x] 156. Pattern 6
+- [x] 157. Pattern 7
+- [x] 158. Pattern 8
+- [x] 159. Pattern 9
+- [x] 160. Pattern 10
+- [x] 161. Pattern 11
+- [x] 162. Pattern 12
+- [x] 163. Pattern 13
+- [x] 164. Pattern 14
+- [x] 165. Pattern 15
+- [x] 166. Pattern 16
+- [x] 167. Pattern 17
+- [x] 168. Pattern 18
+- [x] 169. Pattern 19
+- [x] 170. Pattern 20
 
 ---
 
