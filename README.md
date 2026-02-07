@@ -172,6 +172,10 @@
 - [x] 168. Pattern 18
 - [x] 169. Pattern 19
 - [x] 170. Pattern 20
+- [x] 171. Binary Search lowerBound
+- [x] 172. Binary Search upperBound
+- [x] 173. Binary Search in rotated sorted array - I
+- [x] 174. Binary Search in rotated sorted array - II
 
 ---
 
