@@ -25,7 +25,6 @@ public class Aman143 {
 
             n = sum;
         }
-
         return n == 1;
     }
 }

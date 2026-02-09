@@ -51,7 +51,7 @@
 - [ ] 47. Longest common prefix
 - [ ] 48. Letter combination phone number
 - [x] 49. Flood fill
-- [ ] 50. Peak point of hill (binary search)
+- [x] 50. Peak point of hill (binary search)
 - [ ] 51. First and last index of occurance
 - [ ] 52. Knight tour
 - [x] 53. Tower of hanoi
@@ -176,6 +176,28 @@
 - [x] 172. Binary Search upperBound
 - [x] 173. Binary Search in rotated sorted array - I
 - [x] 174. Binary Search in rotated sorted array - II
+- [x] 175. minimum in sortated sorted array (unique)
+- [x] 176. how many times array has been sorted.
+- [x] 177. single element in sorted array.
+- [x] 178. Sq Root of a num using binary search. max int possible
+- [x] 179. Find nth root of a number. exmaple 3 ✓ 27
+- [x] 180. Coco Eating Banana
+- [x] 181. minimum days to make m no of bouquets using k adjacent flowers.
+- [x] 182. Least capacity to ship packages within D days
+- [ ] 183. Kth missing positive number
+- [x] 184. Linearize a generic tree
+- [x] 185. Linearize optimized approach Gen
+- [x] 186. LCA of nodes in Gen
+- [x] 187. node to root path in Gen tree.
+- [x] 188. Distance Between Nodes in Gen tree
+- [x] 190. Diameter of Gen tree.
+- [ ] 191. mirror of Gen tree
+- [ ] 192. is gen tree symmetric
+- [ ] 193. are Gen trees similar in shape
+- [ ] 194. Preecessor and successor
+- [ ] 195. Ceil and floor
+- [ ] 196. kth largest element
+- [ ] 197. Iterative apprach to itrate Gen tree
 
 ---
 
