@@ -2,7 +2,7 @@
 
 ---
 
-- [x] 1. Rain water trapping
+- [x] 1. Rain water trapping (LC:42 , note : left-max Right-max)
 - [x] 2. Digits to words
 - [x] 3. Digits to roman
 - [x] 4. Next Alphabet
@@ -29,17 +29,17 @@
 - [x] 25. Group Anagrams
 - [x] 26. Reverse a linked list
 - [x] 27. Merge two linked lists
-- [ ] 28. Rotate linked list
-- [ ] 29. Cycle detection in linked list
-- [ ] 30. Largest area histogram
+- [x] 28. Rotate linked list
+- [x] 29. Cycle detection in linked list
+- [x] 30. Largest area histogram
 - [x] 31. Kth element from end in linked list
 - [x] 32. Middle of linked list
 - [x] 33. Display reverse linked list
 - [x] 34. String palindrome
 - [x] 35. String reverse
-- [ ] 36. Faulty keyboard
-- [ ] 37. Container with most water
-- [ ] 38. Majority element (moore's voting algo)
+- [x] 36. Faulty keyboard (LC:925 , 2810)
+- [x] 37. Container with most water (LC:11 , note: 2 pointer)
+- [x] 38. Majority element 1 (moore's voting algo)
 - [x] 39. Array partition
 - [x] 40. Bubble sort
 - [x] 41. Selection sort
@@ -63,7 +63,7 @@
 - [ ] 59. Rotate ring in matrix
 - [ ] 60. Time to burn tree
 - [ ] 61. Joseph problem (100 person in circle)
-- [ ] 62. 20 patterns
+- [ ] 62. Merge K Sorted Lists
 - [ ] 63. max sum subarray of length k
 - [ ] 64. knap sack problem
 - [ ] 65. min size subarray having sum k
@@ -74,11 +74,11 @@
 - [ ] 70. binary search
 - [ ] 71. Reverse arrray
 - [ ] 72. Rotate array
-- [ ] 73.
+- [ ] 73. House Robber I & II
 - [ ] 74. Kth largest element in array
 - [x] 75. sort 0,1
 - [x] 76. sort 0,1,2
-- [ ] 77.
+- [ ] 77. Sliding Window Median
 - [ ] 78. remove cycle from linked list
 - [ ] 79. cycle starting node data
 - [x] 80. Merge two sorted array
@@ -124,7 +124,7 @@
 - [ ] 120. merge arrrays without extra space
 - [ ] 121. wave array
 - [ ] 122. alternate high low array
-- [ ] 123 group anagrams
+- [ ] 123.  group anagrams
 - [ ] 124. multiply strings
 - [ ] 125. remove duplicate characters
 - [ ] 126. reverse words in a sentence
@@ -148,10 +148,10 @@
 - [x] 144. Intersection of Two Arrays (LC : 349)
 - [x] 145. First Missing Positive
 - [x] 146. sudoku solver
-- [ ] 147.
-- [ ] 148.
-- [ ] 149.
-- [ ] 150.
+- [ ] 147. Word Ladder
+- [ ] 148. min arrow to burst
+- [ ] 149. Rotting Oranges
+- [ ] 150. Longest Palindromic Substring
 - [x] 151. Pattern 1
 - [x] 152. Pattern 2
 - [x] 153. Pattern 3
@@ -176,7 +176,7 @@
 - [x] 172. Binary Search upperBound
 - [x] 173. Binary Search in rotated sorted array - I
 - [x] 174. Binary Search in rotated sorted array - II
-- [x] 175. minimum in sortated sorted array (unique)
+- [x] 175. minimum in rotated sorted array (unique)
 - [x] 176. how many times array has been sorted.
 - [x] 177. single element in sorted array.
 - [x] 178. Sq Root of a num using binary search. max int possible
@@ -198,95 +198,81 @@
 - [ ] 195. Ceil and floor
 - [ ] 196. kth largest element
 - [ ] 197. Iterative apprach to itrate Gen tree
+- [ ] 198. Subarray Sum Equals K (LC:560)
+- [ ] 199. Aggressive cows
+- [x] 200. Book Allocation
+- [x] 201. Painter's partition
+- [ ] 202. fold of linkedlist
+- [ ] 203. unfold of linkedlist
+- [ ] 204. graph has path (DFS)
+- [ ] 205. graph print all paths (DFS)
+- [ ] 206. connected components of graph
+- [ ] 206. number of islands in graph
+- [ ] 207. perfect friends
+- [ ] 208. hamiltonion path & cycle
+- [ ] 209. is graph cyclic
+- [ ] 210. spread infection
+- [ ] 211. dijkastra algo
+- [ ] 222. sliding window max
+- [ ] 223. Majority element 2
 
 ---
 
-# Amazon
+PATTERNS DISCOVERED :
 
-## TOP 50 amazon
+1. SLIDING WINDOW
+   1. FIXED SIZE
+   2. VARIABLE SIZE
+2. POINTERS
+   1. TWO PONTERS
+   2. MULTIPLE POINTERS
+3. KADANE
+4. BINARY SEARCH
+   1. SIMPLE BINARY
+   2. FIRST/LAST OCCURANCE
+   3. MARK POSSIBLE ANSWER
+   4. SEARCH ON ANSWERS
+   5. ROTATED ARRAYS
+   6. BITONIC STACK
+5. HASHMAP
+   1. FREQUENCY COUNT
+   2. UNIQUENESS
+6. MONOTONIC STACK
+   1. NEXT GREATER
+   2. RANGE EXPANSION
+   3. TEMPERATURE /WAITING
+   4. CONTRIBUTION TECHNIQUE
+7. HEAP / PRIORITY QUEUE
+   1. TOP K PROBLEMS
+   2. MERGE PROBLEMS
+   3. MEDIAN PROBLEMS
+   4. GREEDY + HEAP
+8. GREEDY
+   1. INTERVAL PROBLEMS
+   2. JUMP / REACHABILITY
+   3. RESOURCE ALLOCATION
+   4. SORTING + GREEDY
+9. PREFIX SUM
+   1. PREFIX SUM
+   2. PREFIX SUM WITH STRUCTURE (prefix + hashmap)
+10. MARK ELEMENT IN ARRAY
+11. RECURSION
+    1. PREORDER
+    2. POST ORDER
+    3. IN ORDER
+    4. WITH LOOPS
+    5. WITH RETURN VALUES
+    6. BACKTRACKING
+    7. Divide & Conquer
+12. TREES
+13. LINKED LIST
+    1. TORTOISE AND HARE
+14. GRAPHS
+15. DYNAMIC PROGRAMMING
+    1. 1D DP (Climbing stairs House robber )
+    2. 2D DP (LCS Edit distance )
+    3. Knapsack Pattern( 0/1 knapsack, Coin change)
+    4. DP on Strings (Palindromes Subsequences
+    5. DP on Grids (Unique paths)
 
-These appear again and again in Amazon loops.
-
-#### Arrays / Hashing
-
-- [ ] Two Sum
-- [ ] Subarray Sum Equals K
-- [ ] Product of Array Except Self
-- [ ] First Missing Positive
-- [ ] Longest Consecutive Sequence
-
-#### Sliding Window
-
-- [ ] Minimum Window Substring
-- [ ] Longest Repeating Character Replacement
-- [ ] Subarrays with K Different Integers
-- [ ] Permutation in String
-
-#### Binary Search (Search on Answer)
-
-- [ ] Koko Eating Bananas
-- [ ] Capacity To Ship Packages Within D Days
-- [ ] Split Array Largest Sum
-- [ ] Find Peak Element
-
-#### Trees
-
-- [ ] Lowest Common Ancestor
-- [ ] Serialize and Deserialize Binary Tree
-- [ ] Binary Tree Maximum Path Sum
-- [ ] Construct Binary Tree from Preorder + Inorder
-- [ ] Validate Binary Search Tree
-
-#### Graphs (VERY High Signal)
-
-- [ ] Course Schedule
-- [ ] Course Schedule II
-- [ ] Clone Graph
-- [ ] Number of Islands
-- [ ] Rotting Oranges
-- [ ] Pacific Atlantic Water Flow
-
-#### Heap / Priority Queue
-
-- [ ] Merge K Sorted Lists
-- [ ] Top K Frequent Elements
-- [ ] Find Median from Data Stream
-- [ ] Two-heaps is a favorite trick.
-
-#### Dynamic Programming
-
-- [ ] Coin Change
-- [ ] Partition Equal Subset Sum
-- [ ] House Robber I & II
-- [ ] Longest Increasing Subsequence (binary search version)
-- [ ] Decode Ways
-- [ ] Target Sum
-- [ ] Amazon asks DP — but usually not insane DP.
-
-#### Greedy
-
-- [ ] Jump Game I & II
-- [ ] Gas Station
-- [ ] Partition Labels
-- [ ] Task Scheduler
-- [ ] Stack / Monotonic
-- [ ] Daily Temperatures
-- [ ] Largest Rectangle in Histogram
-- [ ] Remove K Digits
-- [ ] Monotonic stack is a frequent filter.
-
-#### Backtracking
-
-- [ ] Word Search
-- [ ] Combination Sum
-- [ ] Palindrome Partitioning
-
-#### Strings
-
-- [ ] Group Anagrams
-- [ ] Longest Palindromic Substring
-- [x] Valid Parentheses
-- [ ] Alien Dictionary (topological + reasoning)
-- [ ] Word Ladder
-- [ ] Sliding Window Median
-- [x] Trapping Rain Water
+---
