@@ -286,162 +286,162 @@ Key:
 
 🔥 1–30: Most Frequently Asked
 
-- Two Sum 🔥
-- Maximum Subarray (Kadane’s) 🔥
-- Valid Parentheses 🔥
-- Longest Substring Without Repeating Characters 🔥
-- Binary Search 🔥
-- Merge Intervals 🔥
-- Search in Rotated Sorted Array 🔥
-- Container With Most Water 🔥
-- Longest Palindromic Substring 🔥
-- 3Sum 🔥
-- Valid Anagram 🔥
-- Product of Array Except Self 🔥
-- Subarray Sum Equals K 🔥
-- Move Zeroes 🔥
-- Best Time to Buy & Sell Stock 🔥
-- Linked List Cycle 🔥
-- Reverse Linked List 🔥
-- Detect Cycle in Directed/Undirected Graph 🔥
-- BFS/DFS Traversals 🔥
-- Number of Islands 🔥
-- Lowest Common Ancestor 🔥
-- Binary Tree Level Order Traversal 🔥
-- Depth/Height of Binary Tree 🔥
-- Balanced Binary Tree 🔥
-- Serialize/Deserialize Binary Tree 🔥
-- Topological Sort 🔥
-- Climbing Stairs 🔥
-- Longest Increasing Subsequence 🔥
-- 0/1 Knapsack 🔥
-- Longest Common Subsequence 🔥
+- [ ] Two Sum 🔥
+- [ ] Maximum Subarray (Kadane’s) 🔥
+- [ ] Valid Parentheses 🔥
+- [ ] Longest Substring Without Repeating Characters 🔥
+- [ ] Binary Search 🔥
+- [ ] Merge Intervals 🔥
+- [ ] Search in Rotated Sorted Array 🔥
+- [ ] Container With Most Water 🔥
+- [ ] Longest Palindromic Substring 🔥
+- [ ] 3Sum 🔥
+- [ ] Valid Anagram 🔥
+- [ ] Product of Array Except Self 🔥
+- [ ] Subarray Sum Equals K 🔥
+- [ ] Move Zeroes 🔥
+- [ ] Best Time to Buy & Sell Stock 🔥
+- [ ] Linked List Cycle 🔥
+- [ ] Reverse Linked List 🔥
+- [ ] Detect Cycle in Directed/Undirected Graph 🔥
+- [ ] BFS/DFS Traversals 🔥
+- [ ] Number of Islands 🔥
+- [ ] Lowest Common Ancestor 🔥
+- [ ] Binary Tree Level Order Traversal 🔥
+- [ ] Depth/Height of Binary Tree 🔥
+- [ ] Balanced Binary Tree 🔥
+- [ ] Serialize/Deserialize Binary Tree 🔥
+- [ ] Topological Sort 🔥
+- [ ] Climbing Stairs 🔥
+- [ ] Longest Increasing Subsequence 🔥
+- [ ] 0/1 Knapsack 🔥
+- [ ] Longest Common Subsequence 🔥
 
 ⭐ 31–70: Frequently Asked
 
-- Search Insert Position ⭐
-- First Bad Version ⭐
-- Find Peak Element ⭐
-- Minimum Window Substring ⭐
-- Roman to Integer ⭐
-- String to Integer (atoi) ⭐
-- Implement strStr() ⭐
-- Count and Say ⭐
-- Merge Two Sorted Lists ⭐
-- Remove Nth From End ⭐
-- Add Two Numbers ⭐
-- Intersection of Two Linked Lists ⭐
-- Copy List with Random Pointer ⭐
-- Reverse Nodes in k-Group ⭐
-- Min Stack ⭐
-- Evaluate Reverse Polish Notation ⭐
-- Sliding Window Maximum ⭐
-- Next Greater Element ⭐
-- Course Schedule (Topological Sort) ⭐
-- Graph Bipartite Check ⭐
-- Word Ladder ⭐
-- Dijkstra’s Shortest Path ⭐
-- Bellman-Ford ⭐
-- Trie — Insert/Search ⭐
-- Implement Queue using Stacks ⭐
-- Implement Stack using Queues ⭐
-- Unique Paths ⭐
-- Unique Paths II ⭐
-- Word Break ⭐
-- Palindromic Substrings ⭐
-- Coin Change ⭐
-- Coin Change II ⭐
-- Partition Equal Subset Sum ⭐
-- Kth Smallest in BST ⭐
-- XOR & Bit Manipulation Basics ⭐
-- Search in a Matrix ⭐
-- Rotting Oranges ⭐
-- Minimum Depth of Binary Tree ⭐
-- Symmetric Tree ⭐
-- Path Sum ⭐
+- [ ] Search Insert Position ⭐
+- [ ] First Bad Version ⭐
+- [ ] Find Peak Element ⭐
+- [ ] Minimum Window Substring ⭐
+- [ ] Roman to Integer ⭐
+- [ ] String to Integer (atoi) ⭐
+- [ ] Implement strStr() ⭐
+- [ ] Count and Say ⭐
+- [ ] Merge Two Sorted Lists ⭐
+- [ ] Remove Nth From End ⭐
+- [ ] Add Two Numbers ⭐
+- [ ] Intersection of Two Linked Lists ⭐
+- [ ] Copy List with Random Pointer ⭐
+- [ ] Reverse Nodes in k-Group ⭐
+- [ ] Min Stack ⭐
+- [ ] Evaluate Reverse Polish Notation ⭐
+- [ ] Sliding Window Maximum ⭐
+- [ ] Next Greater Element ⭐
+- [ ] Course Schedule (Topological Sort) ⭐
+- [ ] Graph Bipartite Check ⭐
+- [ ] Word Ladder ⭐
+- [ ] Dijkstra’s Shortest Path ⭐
+- [ ] Bellman-Ford ⭐
+- [ ] Trie — Insert/Search ⭐
+- [ ] Implement Queue using Stacks ⭐
+- [ ] Implement Stack using Queues ⭐
+- [ ] Unique Paths ⭐
+- [ ] Unique Paths II ⭐
+- [ ] Word Break ⭐
+- [ ] Palindromic Substrings ⭐
+- [ ] Coin Change ⭐
+- [ ] Coin Change II ⭐
+- [ ] Partition Equal Subset Sum ⭐
+- [ ] Kth Smallest in BST ⭐
+- [ ] XOR & Bit Manipulation Basics ⭐
+- [ ] Search in a Matrix ⭐
+- [ ] Rotting Oranges ⭐
+- [ ] Minimum Depth of Binary Tree ⭐
+- [ ] Symmetric Tree ⭐
+- [ ] Path Sum ⭐
 
 ✔ 71–110: Moderately Asked
 
-- Validate BST ✔
-- Binary Tree Zigzag Level Order ✔
-- Construct Binary Tree from Traversals ✔
-- Lowest Common Ancestor (BST) ✔
-- Word Search ✔
-- Combination Sum ✔
-- Subsets ✔
-- Permutations ✔
-- Subsets II ✔
-- Permutations II ✔
-- N-Queens ✔
-- Find Median from Data Stream ✔
-- Top K Frequent Elements ✔
-- Kth Largest Element in Array ✔
-- Merge K Sorted Lists ✔
-- Task Scheduler ✔
-- Find First & Last Position in Sorted Array ✔
-- Search a 2D Matrix II ✔
-- Design HashMap ✔
-- Design LRU Cache ✔
-- Decode Ways ✔
-- Edit Distance ✔
-- Jump Game ✔
-- Jump Game II ✔
-- House Robber ✔
-- House Robber II ✔
-- Maximal Square ✔
-- Binary Tree Cameras ✔
-- Largest Rectangle in Histogram ✔
-- Basic Union-Find ✔
-- Number of Connected Components in Graph ✔
-- Alien Dictionary ✔
-- Serialize/Deserialize N-ary Tree ✔
-- Count Primes ✔
-- Roman to Integer ✔
-- Excel Sheet Column Number ✔
-- Excel Sheet Column Title ✔
-- Add Binary ✔
-- Long Pressed Name ✔
-- Reverse Words in a String ✔
+- [ ] Validate BST ✔
+- [ ] Binary Tree Zigzag Level Order ✔
+- [ ] Construct Binary Tree from Traversals ✔
+- [ ] Lowest Common Ancestor (BST) ✔
+- [ ] Word Search ✔
+- [ ] Combination Sum ✔
+- [ ] Subsets ✔
+- [ ] Permutations ✔
+- [ ] Subsets II ✔
+- [ ] Permutations II ✔
+- [ ] N-Queens ✔
+- [ ] Find Median from Data Stream ✔
+- [ ] Top K Frequent Elements ✔
+- [ ] Kth Largest Element in Array ✔
+- [ ] Merge K Sorted Lists ✔
+- [ ] Task Scheduler ✔
+- [ ] Find First & Last Position in Sorted Array ✔
+- [ ] Search a 2D Matrix II ✔
+- [ ] Design HashMap ✔
+- [ ] Design LRU Cache ✔
+- [ ] Decode Ways ✔
+- [ ] Edit Distance ✔
+- [ ] Jump Game ✔
+- [ ] Jump Game II ✔
+- [ ] House Robber ✔
+- [ ] House Robber II ✔
+- [ ] Maximal Square ✔
+- [ ] Binary Tree Cameras ✔
+- [ ] Largest Rectangle in Histogram ✔
+- [ ] Basic Union-Find ✔
+- [ ] Number of Connected Components in Graph ✔
+- [ ] Alien Dictionary ✔
+- [ ] Serialize/Deserialize N-ary Tree ✔
+- [ ] Count Primes ✔
+- [ ] Roman to Integer ✔
+- [ ] Excel Sheet Column Number ✔
+- [ ] Excel Sheet Column Title ✔
+- [ ] Add Binary ✔
+- [ ] Long Pressed Name ✔
+- [ ] Reverse Words in a String ✔
 
 📌 111–150: Other Useful and Advanced
 
-- Gray Code
-- Palindrome Partitioning
-- Subarray Product Less Than K
-- Max Points on a Line
-- Accounts Merge
-- Insert Delete GetRandom O(1)
-- Binary Tree Right Side View
-- Find Duplicate Subtrees
-- Kth Smallest Element in a Sorted Matrix
-- Sliding Window Median
-- Continuous Median
-- Sparse Matrix Multiplication
-- Largest Number
-- Minimum Window Subsequence
-- Find Anagrams in String
-- Spiral Matrix
-- Rotate Image
-- 3Sum Closest
-- 4Sum
-- Longest Repeating Character Replacement
-- Minimum Moves to Equal Array Elements
-- Best Meeting Point
-- Longest Harmonious Subsequence
-- Find Peak Element II
-- Valid Sudoku
-- Game of Life
-- Subarray Sum Divisible by K
-- Permutation Sequence
-- Sliding Window with Variable Size
-- Word Pattern
-- Reorganize String
-- Bridges in Graph
-- Articulation Points
-- Max Flow / Ford-Fulkerson
-- Snake and Ladders (BFS)
-- Count Square Submatrices with All Ones
-- Minimum Cost to Connect Ropes
-- Cheapest Flights Within K Stops
-- Valid Number
-- Regular Expression Matching
+- [ ] Gray Code
+- [ ] Palindrome Partitioning
+- [ ] Subarray Product Less Than K
+- [ ] Max Points on a Line
+- [ ] Accounts Merge
+- [ ] Insert Delete GetRandom O(1)
+- [ ] Binary Tree Right Side View
+- [ ] Find Duplicate Subtrees
+- [ ] Kth Smallest Element in a Sorted Matrix
+- [ ] Sliding Window Median
+- [ ] Continuous Median
+- [ ] Sparse Matrix Multiplication
+- [ ] Largest Number
+- [ ] Minimum Window Subsequence
+- [ ] Find Anagrams in String
+- [ ] Spiral Matrix
+- [ ] Rotate Image
+- [ ] 3Sum Closest
+- [ ] 4Sum
+- [ ] Longest Repeating Character Replacement
+- [ ] Minimum Moves to Equal Array Elements
+- [ ] Best Meeting Point
+- [ ] Longest Harmonious Subsequence
+- [ ] Find Peak Element II
+- [ ] Valid Sudoku
+- [ ] Game of Life
+- [ ] Subarray Sum Divisible by K
+- [ ] Permutation Sequence
+- [ ] Sliding Window with Variable Size
+- [ ] Word Pattern
+- [ ] Reorganize String
+- [ ] Bridges in Graph
+- [ ] Articulation Points
+- [ ] Max Flow / Ford-Fulkerson
+- [ ] Snake and Ladders (BFS)
+- [ ] Count Square Submatrices with All Ones
+- [ ] Minimum Cost to Connect Ropes
+- [ ] Cheapest Flights Within K Stops
+- [ ] Valid Number
+- [ ] Regular Expression Matching
