@@ -69,13 +69,13 @@
 - [ ] 65. min size subarray having sum k
 - [ ] 66. max size subarray having sum atmost k
 - [ ] 67. longest subarray with amtmost k odd numbers
-- [ ] 68. prime number till n
-- [ ] 69. plaindrome
-- [ ] 70. binary search
-- [ ] 71. Reverse arrray
-- [ ] 72. Rotate array
+- [x] 68. prime number till n
+- [x] 69. plaindrome
+- [x] 70. binary search
+- [x] 71. Reverse arrray
+- [x] 72. Rotate array
 - [ ] 73. House Robber I & II
-- [ ] 74. Kth largest element in array
+- [x] 74. Kth largest element in array
 - [x] 75. sort 0,1
 - [x] 76. sort 0,1,2
 - [ ] 77. Sliding Window Median
@@ -215,6 +215,79 @@
 - [ ] 211. dijkastra algo
 - [ ] 222. sliding window max
 - [ ] 223. Majority element 2
+- [x] 224. Fibonacci using dp
+- [x] 225. Climb stairs N th to 0 th stair (can jump upto 3 stairs)
+- [x] 226. climb stairs with variable jumps (arr is given for jumps) 0 to N
+- [x] 227. climb stairs with minimum moves 0 to n
+- [x] 228. minimum cost path in 2d matrix (top left to bottom right, only one step allowed , Horizontal or vertical )
+- [x] 229. max gold path
+- [x] 230. Target sum subset
+
+---
+
+TODO (subarray questions) :
+
+print count of subarrays having sum k || print all subarrays having sum
+k-----> use prefix with hashmap
+
+find maxmimum sum subarray or minimum sum subarray (find subaraay having max sum or min sum)
+![Subarrays](images/subarrays.png "Subarrays")
+
+- [x] 1. Minimum Size Subarray Sum
+
+Find the smallest length subarray whose sum ≥ target.
+(Positive integers only)
+
+2. Subarray With Given Sum (Positive Numbers)
+
+Return start & end indices of a subarray whose sum = K.
+
+3. Count Subarrays With At Most K Odd Numbers
+
+Classic window + counting formula.
+
+4. Maximum Consecutive Ones III
+
+Binary array. Flip at most K zeros.
+Find longest subarray of 1s.
+
+5. Longest Substring With At Most K Distinct Characters
+
+1. Maximum Subarray (Classic Kadane)
+1. Maximum Circular Subarray Sum
+
+Requires modification of Kadane.
+
+3. Maximum Product Subarray
+
+Variant — track max & min due to negatives.
+
+4. Maximum Sum Subarray of Size K
+
+(Fixed window variant — simpler case)
+
+5. Maximum Absolute Subarray Sum
+
+1. Subarray Sum Equals K
+
+Count number of subarrays whose sum = K.
+
+2. Longest Subarray With Sum K
+
+Return maximum length.
+
+3. Count Number of Nice Subarrays
+
+Exactly K odd numbers.
+(Use atMost(K) − atMost(K−1) OR prefix sum trick)
+
+4. Continuous Subarray Sum
+
+Check if subarray sum is multiple of K.
+
+5. Subarrays Divisible by K
+
+Count subarrays where sum % K = 0.
 
 ---
 
@@ -445,3 +518,385 @@ Key:
 - [ ] Cheapest Flights Within K Stops
 - [ ] Valid Number
 - [ ] Regular Expression Matching
+
+---
+
+AMAZON
+
+1️⃣ Arrays (20)
+
+Two Sum
+
+3Sum
+
+4Sum
+
+Container With Most Water
+
+Best Time to Buy and Sell Stock I
+
+Best Time to Buy and Sell Stock II
+
+Maximum Subarray (Kadane’s)
+
+Product of Array Except Self
+
+Trapping Rain Water
+
+Merge Intervals
+
+Insert Interval
+
+Meeting Rooms II
+
+Find Minimum in Rotated Sorted Array
+
+Search in Rotated Sorted Array
+
+Find Peak Element
+
+Kth Largest Element in Array
+
+Top K Frequent Elements
+
+Subarray Sum Equals K
+
+Maximum Product Subarray
+
+Gas Station
+
+2️⃣ Strings (20)
+
+Longest Substring Without Repeating Characters
+
+Minimum Window Substring
+
+Group Anagrams
+
+Valid Anagram
+
+Longest Palindromic Substring
+
+Palindromic Substrings
+
+Valid Parentheses
+
+String to Integer (atoi)
+
+Multiply Strings
+
+Add Strings
+
+Word Break
+
+Word Search
+
+Implement strStr()
+
+Encode and Decode Strings
+
+Reorganize String
+
+Decode String
+
+Longest Common Prefix
+
+Text Justification
+
+Reverse Words in a String
+
+Isomorphic Strings
+
+3️⃣ Linked List (20)
+
+Reverse Linked List
+
+Reverse Linked List II
+
+Merge Two Sorted Lists
+
+Merge K Sorted Lists
+
+Remove Nth Node From End
+
+Linked List Cycle
+
+Linked List Cycle II
+
+Add Two Numbers
+
+Intersection of Two Linked Lists
+
+Palindrome Linked List
+
+Copy List with Random Pointer
+
+Rotate List
+
+Sort List (Merge Sort)
+
+Swap Nodes in Pairs
+
+Reorder List
+
+Partition List
+
+Delete Node in a Linked List
+
+Flatten Multilevel Doubly Linked List
+
+LRU Cache (Linked List + HashMap)
+
+Design Browser History
+
+4️⃣ Stack & Queue (20)
+
+Valid Parentheses
+
+Min Stack
+
+Implement Queue Using Stacks
+
+Implement Stack Using Queues
+
+Daily Temperatures
+
+Next Greater Element I
+
+Next Greater Element II
+
+Largest Rectangle in Histogram
+
+Sliding Window Maximum
+
+Evaluate Reverse Polish Notation
+
+Basic Calculator I
+
+Basic Calculator II
+
+Remove K Digits
+
+Asteroid Collision
+
+Decode String
+
+Monotonic Stack Pattern
+
+Design Circular Queue
+
+Design Circular Deque
+
+Moving Average from Data Stream
+
+Task Scheduler
+
+5️⃣ Trees & BST (20)
+
+Maximum Depth of Binary Tree
+
+Diameter of Binary Tree
+
+Invert Binary Tree
+
+Binary Tree Level Order Traversal
+
+Zigzag Level Order Traversal
+
+Serialize and Deserialize Binary Tree
+
+Validate Binary Search Tree
+
+Kth Smallest in BST
+
+Lowest Common Ancestor (BST)
+
+Lowest Common Ancestor (Binary Tree)
+
+Construct Binary Tree from Preorder & Inorder
+
+Path Sum
+
+Path Sum II
+
+Binary Tree Maximum Path Sum
+
+Balanced Binary Tree
+
+Convert Sorted Array to BST
+
+Same Tree
+
+Symmetric Tree
+
+Vertical Order Traversal
+
+Boundary Traversal of Binary Tree
+
+6️⃣ Graphs (20)
+
+Number of Islands
+
+Clone Graph
+
+Course Schedule
+
+Course Schedule II
+
+Word Ladder
+
+Graph Valid Tree
+
+Number of Connected Components
+
+Surrounded Regions
+
+Pacific Atlantic Water Flow
+
+Rotting Oranges
+
+Dijkstra’s Algorithm
+
+Bellman-Ford
+
+Topological Sort
+
+Detect Cycle in Directed Graph
+
+Detect Cycle in Undirected Graph
+
+Minimum Spanning Tree (Kruskal)
+
+Minimum Spanning Tree (Prim)
+
+Accounts Merge
+
+Network Delay Time
+
+Alien Dictionary
+
+7️⃣ Dynamic Programming (20)
+
+Climbing Stairs
+
+House Robber
+
+House Robber II
+
+Coin Change
+
+Coin Change II
+
+Longest Increasing Subsequence
+
+Longest Common Subsequence
+
+Edit Distance
+
+Word Break
+
+Unique Paths
+
+Unique Paths II
+
+Minimum Path Sum
+
+0/1 Knapsack
+
+Partition Equal Subset Sum
+
+Jump Game
+
+Jump Game II
+
+Decode Ways
+
+Palindromic Substrings
+
+Longest Palindromic Subsequence
+
+Matrix Chain Multiplication
+
+8️⃣ Heaps / Greedy / Intervals (20)
+
+Kth Largest Element in Stream
+
+Top K Frequent Words
+
+Merge K Sorted Lists
+
+Reorganize String
+
+Task Scheduler
+
+Meeting Rooms I
+
+Meeting Rooms II
+
+Minimum Number of Arrows to Burst Balloons
+
+Gas Station
+
+Candy
+
+Huffman Coding
+
+Fractional Knapsack
+
+Non-overlapping Intervals
+
+Insert Interval
+
+Employee Free Time
+
+Skyline Problem
+
+Connect Ropes with Minimum Cost
+
+IPO Problem
+
+Rearrange String k Distance Apart
+
+Furthest Building You Can Reach
+
+9️⃣ Hashing & Bit Manipulation (20)
+
+Single Number
+
+Single Number II
+
+Missing Number
+
+Counting Bits
+
+Subarray Sum Equals K
+
+Longest Consecutive Sequence
+
+Valid Anagram
+
+Isomorphic Strings
+
+Happy Number
+
+Find Duplicate Number
+
+Majority Element
+
+Majority Element II
+
+XOR Queries
+
+Reverse Bits
+
+Power of Two
+
+Power of Four
+
+Add Binary
+
+Bitwise AND of Numbers Range
+
+Implement Trie
+
+Design HashMap
