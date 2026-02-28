@@ -2,65 +2,66 @@ import java.util.ArrayList;
 
 public class Aman206 {
     public static void main(String[] args) {
-        ArrayList<Edge>[] graph = new ArrayList[7];
-        for (int i = 0; i < 7; i++) {
-            graph[i] = new ArrayList<Edge>();
-        }
-        graph[0].add(new Edge(0, 1, 10));
 
-        graph[1].add(new Edge(1, 0, 10));
+        int arr[][] = new int[][] {
 
-        graph[2].add(new Edge(2, 3, 10));
-        graph[3].add(new Edge(3, 2, 10));
-
-        graph[4].add(new Edge(4, 5, 3));
-        graph[4].add(new Edge(4, 6, 3));
-
-        graph[5].add(new Edge(5, 4, 3));
-        graph[5].add(new Edge(5, 6, 3));
-
-        graph[6].add(new Edge(6, 5, 3));
-        graph[6].add(new Edge(6, 4, 8));
-
-        GetConectedComponents(graph);
+                { 0, 0, 1, 1, 1, 1, 1, 1 },
+                { 0, 0, 1, 1, 1, 1, 1, 1 },
+                { 1, 1, 1, 1, 1, 1, 1, 0 },
+                { 1, 1, 0, 0, 0, 1, 1, 0 },
+                { 1, 1, 1, 1, 0, 1, 1, 0 },
+                { 1, 1, 1, 1, 0, 1, 1, 0 },
+                { 1, 1, 1, 1, 1, 1, 1, 0 },
+                { 1, 1, 1, 1, 1, 1, 1, 0 },
+        };
+        System.out.println("total: " + GetNumberOfislands(arr));
     }
 
-    public static void GetConectedComponents(ArrayList<Edge>[] graph) {
-
-        ArrayList<ArrayList<Integer>> comps = new ArrayList<>();
-        boolean[] Visited = new boolean[graph.length];
-        for (int i = 0; i < graph.length; i++) {
-            if (Visited[i] == false) {
-                ArrayList<Integer> arr = new ArrayList<>();
-                DrawTree(i, graph, arr, Visited);
-                comps.add(arr);
+    public static int GetNumberOfislands(int arr[][]) {
+        boolean visited[][] = new boolean[arr.length][arr[0].length];
+        ArrayList<ArrayList<String>> comps = new ArrayList<>();
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[0].length; j++) {
+                if (arr[i][j] == 0 && visited[i][j] == false) {
+                    ArrayList<String> comp = new ArrayList<>();
+                    DrawTree(arr, visited, i, j, comp);
+                    comps.add(comp);
+                }
             }
         }
-
-        System.out.println("comps: " + comps);
-
+        System.out.println(comps);
+        return comps.size();
     }
 
-    public static void DrawTree(int src, ArrayList<Edge>[] graph, ArrayList<Integer> arr, boolean[] visited) {
+    public static void DrawTree(int arr[][], boolean visited[][], int i, int j, ArrayList<String> comp) {
 
-        visited[src] = true;
-        arr.add(src);
-        for (int i = 0; i < graph[src].size(); i++) {
-            if (visited[graph[src].get(i).nbr] == false) {
-                DrawTree(graph[src].get(i).nbr, graph, arr, visited);
-            }
+        if (i < 0 || i >= arr.length || j < 0 || j >= arr[0].length) {
+            return;
         }
-    }
-}
+        // water check (IMPORTANT)
+        if (arr[i][j] == 1) {
+            return;
+        }
+        if (visited[i][j] == true) {
+            return;
+        }
+        visited[i][j] = true;
+        String val = " i: " + i + " j " + j + " ";
+        comp.add(val);
 
-class Edge {
-    int src;
-    int nbr;
-    int wt;
+        int nextI = i - 1;
+        int nextJ = j;
+        DrawTree(arr, visited, nextI, nextJ, comp); // top
+        nextI = i;
+        nextJ = j - 1;
+        DrawTree(arr, visited, nextI, nextJ, comp);// left
+        nextI = i + 1;
+        nextJ = j;
+        DrawTree(arr, visited, nextI, nextJ, comp);// bottom
+        nextI = i;
+        nextJ = j + 1;
+        DrawTree(arr, visited, nextI, nextJ, comp);// right
 
-    Edge(int src, int nbr, int wt) {
-        this.src = src;
-        this.wt = wt;
-        this.nbr = nbr;
     }
+
 }
