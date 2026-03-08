@@ -1,4 +1,4 @@
-public class Aman79 {
+public class Aman78 {
     public static void main(String[] args) {
         NodeL n8 = new NodeL(90, null);
         NodeL n7 = new NodeL(80, n8);
@@ -12,9 +12,37 @@ public class Aman79 {
         NodeL head = new NodeL(10, n1);
 
         if (isCyclePresent(head)) {
-            System.out.println("cycle at data : " + cycleNode(head).data);
+            // System.out.println("cycle" + cycleNode(head).data);
+            resolveCycle(head);
+        }
+        display(head);
+    }
+
+    public static void display(NodeL root) {
+        if (root != null) {
+            System.out.println(root.data);
         }
 
+        if (root.next != null) {
+            display(root.next);
+        }
+    }
+
+    public static void resolveCycle(NodeL head) {
+
+        NodeL start = cycleNode(head);
+
+        if (start == null) {
+            return;
+        }
+
+        NodeL temp = start;
+
+        while (temp.next != start) {
+            temp = temp.next;
+        }
+
+        temp.next = null; // break the cycle
     }
 
     public static NodeL cycleNode(NodeL n) {

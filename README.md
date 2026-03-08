@@ -2,15 +2,15 @@
 
 ---
 
-- [x] 1. Rain water trapping (LC:42 , note : left-max Right-max)
-- [x] 2. Digits to words
-- [x] 3. Digits to roman
-- [x] 4. Next Alphabet
-- [x] 5. Kadane's Algorithm
-- [x] 6. Tree traversal preorder
-- [x] 7. Tree traversal postorder
-- [x] 8. Tree traversal Level order
-- [x] 9. Tree traversal Level order linewise
+- [x] 1.  Rain water trapping (LC:42 , note : left-max Right-max)
+- [x] 2.  Digits to words
+- [x] 3.  Digits to roman
+- [x] 4.  Next Alphabet
+- [x] 5.  Kadane's Algorithm
+- [x] 6.  Tree traversal preorder
+- [x] 7.  Tree traversal postorder
+- [x] 8.  Tree traversal Level order
+- [x] 9.  Tree traversal Level order linewise
 - [x] 10. Height of tree
 - [x] 11. Print leaf nodes and remove leaf nodes
 - [x] 12. Tree traversal Zig zag
@@ -62,10 +62,10 @@
 - [ ] 58. Transpose of matrix
 - [ ] 59. Rotate ring in matrix
 - [ ] 60. Time to burn tree
-- [ ] 61. Joseph problem (100 person in circle)
+- [x] 61. Joseph problem (100 person in circle)
 - [x] 62. Merge K Sorted linked Lists
 - [x] 63. max sum subarray of length k
-- [ ] 64. knap sack problem
+- [ ] 64. 0/1 knap sack problem
 - [ ] 65. min size subarray having sum k
 - [ ] 66. max size subarray having sum atmost k
 - [ ] 67. longest subarray with amtmost k odd numbers
@@ -82,9 +82,9 @@
 - [ ] 78. remove cycle from linked list
 - [ ] 79. cycle starting node data
 - [x] 80. Merge two sorted array
-- [ ] 81. Search element in rotated sorted array
+- [ ] 81. K Most Frequent Words - Return the top-k frequent words ordered by frequency and lexicographical order.
 - [ ] 82. smallest window, two string s and x find smallest substrig in s such that all it contains all letters present in x
-- [ ] 83. LCA of binary tree
+- [x] 83. LCA of binary tree
 - [x] 84. Maze path with diagonals allowed
 - [x] 85. coco eating banana
 - [x] 86. Maximum Sum Subarray of Size K (Foundational)
@@ -109,7 +109,7 @@
 - [ ] 105. Count the number of subarrays that contain exactly k distinct integers.
 - [ ] 106. product of array except itself
 - [ ] 107. Median of two sorted arrays
-- [ ] 108. Search in rotated sorted array
+- [x] 108. Search in rotated sorted array
 - [ ] 109. Best time to buy sell stocks
 - [ ] 110. Permutations
 - [ ] 111. Word search
@@ -124,7 +124,7 @@
 - [ ] 120. merge arrrays without extra space
 - [ ] 121. wave array
 - [ ] 122. alternate high low array
-- [ ] 123.  group anagrams
+- [ ] 123. group anagrams
 - [ ] 124. multiply strings
 - [ ] 125. remove duplicate characters
 - [ ] 126. reverse words in a sentence
@@ -190,29 +190,40 @@
 - [x] 186. LCA of nodes in Gen
 - [x] 187. node to root path in Gen tree.
 - [x] 188. Distance Between Nodes in Gen tree
+- [ ] 189. Task Scheduler
 - [x] 190. Diameter of Gen tree.
-- [ ] 191. mirror of Gen tree
-- [ ] 192. is gen tree symmetric
-- [ ] 193. are Gen trees similar in shape
-- [ ] 194. Preecessor and successor
-- [ ] 195. Ceil and floor
-- [ ] 196. kth largest element
-- [ ] 197. Iterative apprach to itrate Gen tree
+- [x] 191. mirror of Gen tree
+- [x] 192. is gen tree symmetric
+- [x] 193. are Gen trees similar in shape
+- [x] 194. Preecessor and successor
+- [x] 195. Ceil and floor
+- [x] 196. kth largest element
+- [x] 197. Iterative apprach to itrate Gen tree
 - [ ] 198. Subarray Sum Equals K (LC:560)
 - [ ] 199. Aggressive cows
 - [x] 200. Book Allocation
 - [x] 201. Painter's partition
 - [ ] 202. fold of linkedlist
 - [ ] 203. unfold of linkedlist
-- [ ] 204. graph has path (DFS)
-- [ ] 205. graph print all paths (DFS)
-- [ ] 206. connected components of graph
-- [ ] 206. number of islands in graph
-- [ ] 207. perfect friends
-- [ ] 208. hamiltonion path & cycle
-- [ ] 209. is graph cyclic
+- [x] 204. graph has path (DFS)
+- [x] 205. graph print all paths (DFS)
+- [x] 206. connected components of graph
+- [x] 206. number of islands in graph
+- [x] 207. perfect friends
+- [x] 208. hamiltonion path & cycle
+- [x] 209. is graph cyclic
 - [ ] 210. spread infection
 - [ ] 211. dijkastra algo
+- [x] 212. BFS In Graph
+- [ ] 213. Topological sort
+- [ ] 214. Moving Average from Data Stream
+- [ ] 215. XOR & Bit Manipulation Basics
+- [ ] 216. Excel Sheet Column Number
+- [ ] 217. Excel Sheet Column Title
+- [ ] 218. Text Justification
+- [ ] 219. Design Circular Queue
+- [ ] 220. Design Circular Deque
+- [ ] 221. Basic Union-Find
 - [ ] 222. sliding window max
 - [ ] 223. Majority element 2
 - [x] 224. Fibonacci using dp
@@ -221,7 +232,19 @@
 - [x] 227. climb stairs with minimum moves 0 to n
 - [x] 228. minimum cost path in 2d matrix (top left to bottom right, only one step allowed , Horizontal or vertical )
 - [x] 229. max gold path
-- [x] 230. Target sum subset
+- [ ] 230. Target sum subset
+- [x] 231. number of emplyees under every manager
+- [x] 232. Find Itinerary from Tickets using Hashmaps [ LC: 332]
+- [x] 233. Check if Array Pairs are Divisible by K [ LC : 1497]
+- [ ] 234. Distinct Elements in Windows of Size K
+- [x] 235. Longest Path in graph
+- [x] 236. Shortest Path in graph
+- [x] 237. Floor Path in graph
+- [x] 238. Ceil Path in graph
+- [x] 239. Third Largest Path in graph
+- [x] 240. is graph connected
+- [ ] 241. Is Graph BiPartite
+- [ ] 242. count subarray in O(n)
 
 ---
 
